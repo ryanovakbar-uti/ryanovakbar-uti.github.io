@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1920px;
+    margin: auto;
+    background-color: azure;
+}
+
+.nav-logo {
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #A51C30;
+}
+
+.nav-header {
+    margin: auto;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.nav-container ul a li {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-container ul a :active {
+    color: black;
+}
+
+.nav-container ul a :hover {
+    background-color: #731220;
+}
+
+.nav-container ul a {
+    text-decoration: none;
+}
+
+.content {
+    height: 1150px;
+    text-align: center;
+    background-color: azure;
+}
+
+.website-paragraf {
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #731220;
+}
+
+.uti-achievement-img {
+    width: 600px;
+    margin: 0px 70px;
+    border: 6px solid rgb(222, 222, 222);
+    border-radius: 12px;
+}
+
+.content div :hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}

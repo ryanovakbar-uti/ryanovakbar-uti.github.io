@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1920px;
+    margin: auto;
+    background-color: azure;
+}
+
+.nav-logo {
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    background-color: #A51C30;
+}
+
+.nav-header {
+    margin: auto;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.nav-container ul a li {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: crimson;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-container ul a :active {
+    color: black;
+}
+
+.nav-container ul a :hover {
+    background-color: #731220;
+}
+
+.nav-container ul a {
+    text-decoration: none;
+}
+
+.website-header-uti {
+    width: 100%;
+}
+
+.content {
+    height: 1730px;
+    text-align: center;
+    background-color: azure;
+}
+
+.logo-uti-min {
+    width: 64px;
+    padding-top: 56px;
+}
+
+.garis-tengah {
+    display: flex;
+    margin: auto;
+    width: 520px;
+}
+
+.garis-tengah-min {
+    border: 2px solid black;
+    margin: auto;
+    width: 180px;
+}
+
+.toga-gelar-akademik {
+    width: 32px;
+}
+
+.website-paragraf {
+    padding: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #731220;
+}
+
+.program-studi :hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.program-studi {
+    background-color: azure;
+}
+
+.ftik {
+    margin: auto;
+    text-align: justify;
+    width: 360px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 12px;
+}
+
+.feb {
+    margin: auto;
+    text-align: justify;
+    width: 360px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 12px;
+}
+
+.fsip {
+    margin: auto;
+    text-align: justify;
+    width: 360px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 12px;
+}
+
+.google-map-uti-container :hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.google-map-uti-iframe {
+    padding: 20px;
+    margin: -10px 40px 40px;
+    border: 1px solid azure;
+    border-radius: 6px;
+}
