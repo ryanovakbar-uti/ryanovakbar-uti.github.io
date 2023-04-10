@@ -6,10 +6,12 @@
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 .container {
     width: 1920px;
+    height: 1120px;
     margin: auto;
     background-color: azure;
 }
@@ -52,8 +54,6 @@ body {
 .content {
     margin: auto;
     width: 1260px;
-    height: 1020px;
-    background-color: azure;
 }
 
 .ryanov-akbar {
@@ -72,7 +72,9 @@ body {
     width: 300px;
 }
 
-.ryanov-akbar table, th, td {
+.ryanov-akbar table,
+th,
+td {
     border: 1px solid azure;
 }
 
@@ -103,10 +105,76 @@ body {
     height: 240px;
 }
 
-.ryanov-status-1, .ryanov-status-2, .ryanov-status-3 {
+.ryanov-status-1,
+.ryanov-status-2,
+.ryanov-status-3 {
     height: 330px;
     border: 2px solid black;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: 100%;
+        display: flex;
+    }
+
+    .ryanov-akbar {
+        margin: auto;
+    }
+
+    .foto-ktm-ryanov-akbar {
+        width: 640px;
+        margin-left: 70px;
+        margin-bottom: 120px;
+    }
+
+    .biodata-table th {
+        padding: 14.5px;
+        font-size: 28px;
+        width: 220px;
+        text-align: justify;
+    }
+
+    .biodata-table td {
+        border: 1px solid black;
+        padding: 14.5px;
+        font-size: 28px;
+        width: 460px;
+    }
+
+    .ryanov-status {
+        width: 100%;
+        display: block;
+        margin-bottom: 124px;
+    }
+
+    .ryanov-status p {
+        font-size: 36px;
+    }
+
+    .ryanov-status-1 {
+        height: 730px;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    img.content-img-1 {
+        width: 494px;
+        height: 600px
+    }
+
+    .ryanov-status-2,
+    .ryanov-status-3 {
+        height: 730px;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    img.content-img-2,
+    img.content-img-3 {
+        height: 600px;
+    }
 }

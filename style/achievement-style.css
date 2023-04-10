@@ -6,6 +6,7 @@
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 .container {
@@ -49,26 +50,69 @@ body {
     text-decoration: none;
 }
 
-.content {
-    height: 1150px;
+.mars-uti-container {
+    height: 675px;
     text-align: center;
-    background-color: azure;
 }
 
-.website-paragraf {
-    padding: 50px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #731220;
+.mars-uti {
+    height: 100%;
 }
 
-.uti-achievement-img {
-    width: 600px;
-    margin: 0px 70px;
-    border: 6px solid rgb(222, 222, 222);
-    border-radius: 12px;
+.content {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
 }
 
 .content div :hover {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.content-1,
+.content-2,
+.content-3 {
+    width: 400px;
+    height: 369px;
+    background-color: white;
+}
+
+.content-img {
+    width: 100%;
+}
+
+p {
+    margin-top: -4px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        display: block;
+    }
+
+    .content {
+        margin-top: 90px;
+    }
+
+    .content-1,
+    .content-2,
+    .content-3 {
+        background-color: azure;
+        width: 1920px;
+        height: 900px;
+        text-align: center;
+    }
+
+    .content-img {
+        width: 900px;
+        height: 650px;
+    }
+
+    p {
+        padding: 20px 510px;
+        font-size: 40px;
+        text-align: justify;
+    }
 }
